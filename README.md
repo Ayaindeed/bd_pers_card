@@ -51,16 +51,6 @@ A modern, aesthetic birthday celebration app built with Next.js.
    pnpm dev
    ```
 
-4. **Open in browser**:
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-## Deploy to Vercel (Free)
-
-### Quick Deploy
-1. Push your code to GitHub, GitLab, or Bitbucket
-2. Visit [vercel.com](https://vercel.com) and sign up
-3. Click "New Project" and import your repository
-4. Vercel will auto-detect Next.js and deploy!
 
 ### Manual Deploy
 ```bash
@@ -83,11 +73,6 @@ The app uses a custom color palette defined in `tailwind.config.js`:
 - Floating code snippets
 - Smooth hover transitions
 - Bouncing themed emojis
-
-### Content
-Modify the birthday messages in:
-- `src/components/BirthdayPopup.tsx` - Main birthday popup content
-- `src/components/BirthdayCard.tsx` - Guinness card elements
 
 ## Project Structure
 
