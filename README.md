@@ -1,4 +1,4 @@
-# BD App
+# BDA
 
 A modern, aesthetic birthday celebration app built with Next.js.
 
