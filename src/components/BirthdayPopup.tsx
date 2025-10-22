@@ -274,14 +274,14 @@ const BirthdayPopup: React.FC<BirthdayPopupProps> = ({ isOpen, onClose }) => {
               </div>
               <div className="ml-4">
                 <span className="text-blue-400">message:</span>
-                <span className="text-green-300"> "Another year of wisdom deployed!"</span>
+                <span className="text-green-300"> &ldquo;Another year of wisdom deployed!&rdquo;</span>
               </div>
             </div>
           </div>
 
           {/* Special Message */}
           <div className="text-center text-guinness-cream/80 text-sm italic">
-            "Like a perfect pint of Guinness, you get better with time!"
+            &ldquo;Like a perfect pint of Guinness, you get better with time!&rdquo;
           </div>
 
           {/* Party Button with Audio */}
@@ -347,9 +347,9 @@ const BirthdayPopup: React.FC<BirthdayPopupProps> = ({ isOpen, onClose }) => {
                 {/* Shakespearean Message */}
                 <div className="space-y-4 text-amber-900 font-serif leading-relaxed">
                   <p className="text-base italic text-center">
-                    <span className="text-2xl font-bold">"</span>
+                    <span className="text-2xl font-bold">&ldquo;</span>
                     Dearest ASE,
-                    <span className="text-2xl font-bold">"</span>
+                    <span className="text-2xl font-bold">&rdquo;</span>
                   </p>
                   
                   <p className="text-sm leading-loose">

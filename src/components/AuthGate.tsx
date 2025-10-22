@@ -70,7 +70,7 @@ const AuthGate: React.FC<AuthGateProps> = ({ onAuthenticated }) => {
               
               <div className="bg-black/50 rounded-lg p-4 border border-matrix-green/20">
                 <p className="text-xl text-guinness-cream font-serif">
-                  "All I need is a Guinness & 
+                  &ldquo;All I need is a Guinness & 
                   <input
                     type="text"
                     value={userInput}
@@ -81,7 +81,7 @@ const AuthGate: React.FC<AuthGateProps> = ({ onAuthenticated }) => {
                     placeholder="....."
                     autoFocus
                   />
-                  "
+                  &rdquo;
                 </p>
               </div>
             </div>
@@ -119,7 +119,7 @@ const AuthGate: React.FC<AuthGateProps> = ({ onAuthenticated }) => {
 
         {/* Hint */}
         <div className="text-center mt-6 text-guinness-cream/50 text-sm font-mono">
-          <p>Hint: no i'm not giving you!</p>
+          <p>Hint: no i&apos;m not giving you!</p>
         </div>
       </div>
     </div>
