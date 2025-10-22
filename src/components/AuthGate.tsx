@@ -119,7 +119,7 @@ const AuthGate: React.FC<AuthGateProps> = ({ onAuthenticated }) => {
 
         {/* Hint */}
         <div className="text-center mt-6 text-guinness-cream/50 text-sm font-mono">
-          <p>Hint: no i&apos;m not giving you!</p>
+          <p>Hint: no i&apos;m not giving you any!</p>
         </div>
       </div>
     </div>
