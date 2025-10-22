@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&family=Playfair+Display:wght@400;700&family=Dancing+Script:wght@400;700&display=swap');
+
+@layer base {
+  html {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  .matrix-text {
+    color: #00FF41;
+    text-shadow: 0 0 5px #00FF41;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  
+  .guinness-gradient {
+    background: linear-gradient(to bottom, #0F0F0F 0%, #2D1810 25%, #4A2E1A 75%, #F4F1E8 100%);
+  }
+  
+  .floating {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .font-cursive {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  @keyframes matrix-fall {
+    0% { transform: translateY(-100vh); }
+    100% { transform: translateY(100vh); }
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  .glow {
+    filter: drop-shadow(0 0 10px rgba(0, 255, 65, 0.5));
+  }
+  
+  .book-spine {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+}
