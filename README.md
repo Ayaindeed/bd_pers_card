@@ -97,7 +97,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Note
 
 Built with ❤️ by me.
-
----
-
-*"Like a perfect pint of Guinness, you get better with time! "*
